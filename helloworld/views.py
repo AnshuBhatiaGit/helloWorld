@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 # Create your views here.
 def hello(request):
-    return HttpResponse("Hello World Changed to be picked up by jenkins job!!!")
+    return HttpResponse("Hello World Changed to be picked up by jenkins job, DevOps is fun !!!")
